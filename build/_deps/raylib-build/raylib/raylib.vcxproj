@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6C9B8CDF-AB86-3038-B0FE-A1F5D49FCEFF}</ProjectGuid>
+    <ProjectGuid>{851DB2B8-3C5D-38D0-8512-C71B4A1B4E27}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raylib.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raylib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raylib.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raylib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raylib.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raylib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raylib.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raylib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,8 +116,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -139,10 +139,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -155,8 +155,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -178,10 +178,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -194,8 +194,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -216,10 +216,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -231,11 +231,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\CMakeLists.txt">
+    <CustomBuild Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,12 +243,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -256,12 +256,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -269,12 +269,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,54 +282,54 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\GlfwImport.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\JoinPaths.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PackConfigurations.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\cmake\raylib-config-version.cmake;D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\raudio.c" />
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\rcore.c" />
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\rmodels.c" />
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\rshapes.c" />
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\rtext.c" />
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\rtextures.c" />
-    <ClCompile Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\utils.c" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj" />
-    <Object Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj" />
-    <ClInclude Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\raylib.h" />
-    <ClInclude Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\rlgl.h" />
-    <ClInclude Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\raymath.h" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\raudio.c" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\rcore.c" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\rmodels.c" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\rshapes.c" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\rtext.c" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\rtextures.c" />
+    <ClCompile Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\utils.c" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj" />
+    <Object Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj" />
+    <ClInclude Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\raylib.h" />
+    <ClInclude Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\rlgl.h" />
+    <ClInclude Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\raymath.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="D:\Aplicaciones C++\Behavior Agents\build\ZERO_CHECK.vcxproj">
-      <Project>{17B37203-2272-31BB-9E0C-AEF15BF7F420}</Project>
+    <ProjectReference Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\ZERO_CHECK.vcxproj">
+      <Project>{18216AD4-C305-396C-8CAB-00DABA03A6DF}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\glfw.vcxproj">
-      <Project>{3FD76E3D-630A-3FB6-A7FA-762484FB5F5A}</Project>
+    <ProjectReference Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\glfw.vcxproj">
+      <Project>{17825B0F-D6FD-33CB-B147-40E7AE3F3331}</Project>
       <Name>glfw</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

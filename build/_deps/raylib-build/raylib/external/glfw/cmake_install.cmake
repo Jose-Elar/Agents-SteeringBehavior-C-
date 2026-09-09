@@ -1,4 +1,4 @@
-# Install script for directory: D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw
+# Install script for directory: D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
+  include("D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/external/glfw/install_local_manifest.txt"
+  file(WRITE "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/external/glfw/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

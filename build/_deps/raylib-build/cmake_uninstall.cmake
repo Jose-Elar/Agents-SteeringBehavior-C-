@@ -1,8 +1,8 @@
-if(NOT EXISTS "D:/Aplicaciones C++/Behavior Agents/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: D:/Aplicaciones C++/Behavior Agents/build/install_manifest.txt")
+if(NOT EXISTS "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/install_manifest.txt")
 endif()
 
-file(READ "D:/Aplicaciones C++/Behavior Agents/build/install_manifest.txt" files)
+file(READ "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

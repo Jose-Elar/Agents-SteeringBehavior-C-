@@ -1,17 +1,39 @@
 #include "raylib.h"
 #include "Constants.h"
 #include "Agent.h"
+#include <vector>
+
+using namespace std;
 
 int main(int, char**){
     InitWindow(GameConfig::SCREEN_WIDTH, GameConfig::SCREEN_HEIGHT, "Behavior Agents");
     SetTargetFPS(GameConfig::TARGET_FPS);
 
-    Agent agent(Vector2(500.0f,300.0f));
+    vector<Agent> agents;
+
+    for(int i = 0; i< 15; i++) {
+        float x = static_cast<float>(GetRandomValue(0, GameConfig::SCREEN_WIDTH));
+        float y = static_cast<float>(GetRandomValue(0, GameConfig::SCREEN_HEIGHT));
+        agents.push_back(Agent(Vector2({x, y})));
+    }
 
     while(!WindowShouldClose()){
+        Vector2 targetMouse = GetMousePosition();
+        float deltaTime = GetFrameTime();
+
+        for( Agent& agent : agents) {
+            agent.update(targetMouse, deltaTime);
+        }
+
+
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        agent.draw();
+
+        DrawCircleV(targetMouse, 10.0f, RED); //Mouse Representation
+
+        for( const Agent& agent : agents) {
+            agent.draw();
+        }
         EndDrawing();
     }
 

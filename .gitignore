@@ -1,0 +1,34 @@
+# Build output
+build/
+out/
+ 
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+ 
+# Compiled binaries / object files
+*.exe
+*.obj
+*.o
+*.lib
+*.dll
+*.pdb
+*.ilk
+ 
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vs/
+ 
+# VSCode (opcional — descomenta si no quieres compartir tu config de editor)
+# .vscode/
+ 
+# Sistema operativo
+Thumbs.db
+.DS_Store
+ 

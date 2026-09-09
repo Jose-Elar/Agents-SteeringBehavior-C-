@@ -1,1 +1,1 @@
-Classic AI steering behaviours implemented from scratch in C++ with raylib, using vector math an manual force based movement.
+Classic AI steering behaviours implemented from scratch in C++ using raylib, vector mathematics, and manual force-based movement.

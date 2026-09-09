@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0F55A1AA-CA8D-376D-823D-A0E06DBFB3FF}</ProjectGuid>
+    <ProjectGuid>{B2AE0308-CE8F-3C18-8526-A41D3E1CE953}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,15 +105,15 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Aplicaciones C++\Behavior Agents\build\CMakeFiles\dd8b1c45b6fe5c9d447433cb68fd25be\update_mappings.rule">
+    <CustomBuild Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\CMakeFiles\6efc82f128dde9487847426bd31d4790\update_mappings.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\src"
+cd "D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,17 +122,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\src"
+cd "D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,17 +141,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\src"
+cd "D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,17 +160,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\src"
+cd "D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -179,17 +179,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,12 +197,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -210,12 +210,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -223,12 +223,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/Behavior Agents" "-BD:/Aplicaciones C++/Behavior Agents/build" --check-stamp-file "D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-" "-BD:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build" --check-stamp-file "D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,23 +236,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+    <None Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
     </None>
-    <None Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake">
+    <None Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="D:\Aplicaciones C++\Behavior Agents\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings">
+    <None Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="D:\Aplicaciones C++\Behavior Agents\build\ZERO_CHECK.vcxproj">
-      <Project>{17B37203-2272-31BB-9E0C-AEF15BF7F420}</Project>
+    <ProjectReference Include="D:\Aplicaciones C++\GitHub Versions\Steering Behaviours\Agents-SteeringBehavior-C-\build\ZERO_CHECK.vcxproj">
+      <Project>{18216AD4-C305-396C-8CAB-00DABA03A6DF}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

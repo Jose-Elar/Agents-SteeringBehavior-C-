@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitclone.cmake
-source_dir=D:/Aplicaciones C++/Behavior Agents/build/_deps/raylib-src
-work_dir=D:/Aplicaciones C++/Behavior Agents/build/_deps
+command=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-gitclone.cmake
+source_dir=D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps/raylib-src
+work_dir=D:/Aplicaciones C++/GitHub Versions/Steering Behaviours/Agents-SteeringBehavior-C-/build/_deps
 repository=https://github.com/raysan5/raylib.git
 remote=origin
 init_submodules=TRUE
