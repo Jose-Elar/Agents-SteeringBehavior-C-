@@ -10,8 +10,7 @@ int main(int, char**){
     SetTargetFPS(GameConfig::TARGET_FPS);
 
     vector<Agent> agents;
-
-    for(int i = 0; i< 15; i++) {
+    for(int i = 0; i< 50; i++) {
         float x = static_cast<float>(GetRandomValue(0, GameConfig::SCREEN_WIDTH));
         float y = static_cast<float>(GetRandomValue(0, GameConfig::SCREEN_HEIGHT));
         agents.push_back(Agent(Vector2({x, y})));
@@ -22,7 +21,7 @@ int main(int, char**){
         float deltaTime = GetFrameTime();
 
         for( Agent& agent : agents) {
-            agent.update(targetMouse, deltaTime);
+            agent.update(agents, deltaTime);
         }
 
 
